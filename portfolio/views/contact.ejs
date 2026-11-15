@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <header>
+      <h1>Contact Me</h1>
+    </header>
+
+    <main id="wrapper">
+      <section>
+        <h2>Get in Touch!</h2>
+        <p>If you have any questions, please feel free to reach out to me.</p>
+
+        <form action="mailto:brishti.chauhan@ontariotechu.net" method="post" enctype="text/plain" name="form">
+          <p>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" size="32" placeholder="Your name" required class="field">
+          </p>
+          <p>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" size="40" placeholder="yourname@example.com" required class="field">
+          </p>
+          <p>
+            <label for="phone">Phone Number:</label><br>
+            <input type="number" id="phone" name="phone" placeholder="Numbers only" required class="field">
+          </p>
+          <p>
+            <label for="comments">Comments/Concerns:</label><br>
+            <textarea id="comments" name="comments" cols="60" rows="6" maxlength="500" required class="field"></textarea>
+          </p>
+          <p><input type="submit" value="Submit"/></p>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
