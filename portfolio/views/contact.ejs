@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
+<%- include('partials/header', { title: 'Contact' }) %>
     <header>
       <h1>Contact Me</h1>
     </header>
@@ -37,5 +29,4 @@
         </form>
       </section>
     </main>
-  </body>
-</html>
+<%- include('partials/footer') %>

@@ -33,17 +33,6 @@ header {
 }
 
 
-footer {
-    background-color: #D7C6B4;
-    background: linear-gradient(to bottom, #D7C6B4 0%, #ECE7E4 100%);
-    color: #262626; 
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100px;
-}
-
 figure {
     max-width: 100%;
     width: 150px;
@@ -88,3 +77,22 @@ video {
     opacity: 1; 
     border: 1px solid #262626;
  }
+
+
+
+ #wrapper::after {
+    content: "";
+    display: block;
+    clear: both;
+ }
+
+ footer a {
+    color: #262626;
+    text-decoration: none;
+ }
+
+ footer a:hover {
+    color: #262626;
+    text-decoration: underline;
+ }
+ 
