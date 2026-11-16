@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><%= title %></title>
 
-    <link rel="stylesheet" href="/stylesheets/style.css">
+    
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/stylesheets/style.css">
    </head>
  
    <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="/">Brishti Chauhan</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,19 +25,19 @@
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
           <a class="nav-link <%= title === 'Home' ? 'active' : '' %>" href="/">
-            <i class="fa-solid fa-house"></i> Home</a>
+            <i class="fa-solid fa-house fa-lg"></i> Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link <%= title === 'About Me' ? 'active' : '' %>" href="/about">
-            <i class="fa-solid fa-user"></i> About</a>
+            <i class="fa-solid fa-user fa-lg"></i> About</a>
         </li>
         <li class="nav-item">
           <a class="nav-link <%= title === 'Projects' ? 'active' : '' %>" href="/projects">
-            <i class="fa-solid fa-folder-open"></i> Projects</a>
+            <i class="fa-solid fa-folder-open fa-lg"></i> Projects</a>
         </li>
         <li class="nav-item">
           <a class="nav-link <%= title === 'Contact' ? 'active' : '' %>" href="/contact">
-            <i class="fa-solid fa-envelope"></i> Contact</a>
+            <i class="fa-solid fa-envelope fa-lg"></i> Contact</a>
         </li>
       </ul>
     </div>
